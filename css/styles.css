@@ -1,0 +1,239 @@
+    /* font-family: 'IBM Plex Sans Condensed', sans-serif; */
+    /* font-family: 'Pacifico', cursive; */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/images/prod-1.svg), url(/images/prod-2.svg);
+    background-repeat: no-repeat;
+    background-position: top right, 50rem 9rem;
+    background-size: 340px, 700px;
+    width: 100px;
+    height: 840px;
+    left: 0px;
+    top: 0px; 
+}
+
+.cards {
+    margin-left: 8rem;
+}
+
+.card{
+    display:inline-block;
+    background: linear-gradient(
+        to left top,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 1rem;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    height: 23rem;
+    width: 17rem;
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    height: 8rem;
+    width: 13rem;
+    border-radius: 30px;
+}
+
+.card-info {
+    font-family: IBM Plex Sans Condensed;
+    text-indent: 1rem;
+    text-align-last: center;
+    color: #8D59D4;
+    padding: 0.3rem 1rem;
+}
+
+.info-container {
+    margin-top: 1rem;
+    height: 71px;
+    width: 200px;
+    background: rgba(222, 209, 254, 0.6);
+border-radius: 25px;
+}
+
+.price {
+    font-family: IBM Plex Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #61B2E4;
+    margin: 1rem 2.5rem;
+}
+
+.explore-btn {
+    text-decoration: none;
+    font-size: 42px;
+    color: #61B2E4;
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    width: 13.5rem;
+    height: 5rem;
+    left: 38.7rem;
+    top: 19rem;
+    background: linear-gradient(96.65deg, rgba(255, 255, 255, 0.534) 4.95%, rgba(185, 205, 255, 0.48) 100%);
+    backdrop-filter: blur(100px);
+    border-radius: 30px;
+    padding: 1px 40px 80px 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.bg-img {
+    background-image: url(/images/titleBG\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    width: 987px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+}
+
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 25px;
+    
+    position: absolute;
+    width: 500px;
+    height: 63px;
+    left: 850px;
+    top: 70px;
+}
+
+.nav-item li{
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 1.4rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-item li a{
+    color: #5A0079;
+}
+
+.nav-item li a:hover{
+    color: #61B2E4;
+}
+
+.logo{
+    position: absolute;
+    width: 104px;
+    height: 80px;
+    left: 19rem;
+    top: 35px;
+}
+
+.logo-text{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    left: 25rem;
+    top: 48px;
+}
+
+.main {
+     position: absolute;
+    top: 220px; 
+    font-family: IBM Plex Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    /* line-height: 156px; */
+    color: #FFFFFF;
+}
+
+.main-title {
+    position: absolute;
+    width: 599px;
+    height: 312px;
+    left: 21.5rem;
+}
+
+.main-title-2 {
+    position: absolute;
+    left: 46.3rem;
+    transform: translate(-50,-50);
+    margin: 0;
+    background: url(/images/titleBG\ 1.svg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 30% 50%;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.main-title-3 {
+    position: absolute;
+    top: 5.5rem;
+    left: 33rem;
+}
+
+.product-section {
+    background-image: url(/images/prodPageBg.svg);
+    position: absolute;
+    width: 1960px;
+    height: 700px;
+    right: -40px;
+}
+
+.glass {
+    position: absolute;
+    background: white;
+    min-height: 75vh;
+    width: 60%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(0.8rem);
+    left: 36rem;
+    top: 4rem;
+}
+
+.glass-title {
+    position: absolute;
+    left: 30rem;
+    top: 1rem;
+    font-family: IBM Plex Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: rgba(114, 49, 198, 0.75);
+}
+
+.footerImg-size {
+    position: absolute;
+    width: 1520px;
+    height: 400px;
+}
+
+.footer-bg {
+   position: relative;
+top: 83.4%;
+}
